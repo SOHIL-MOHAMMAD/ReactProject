@@ -1,12 +1,14 @@
 //import Counter from "./Components/Counter"
 //import Todo from "./Components/Todo"
-import DigitalClock from "./Components/DigitalClock"
+//import DigitalClock from "./Components/DigitalClock"
+import Calculator from "./Components/Calculator"
 const App = () => {
   return (
     <div>
       {/*<Counter/>*/}
       {/*<Todo/>*/}
-      <DigitalClock/>
+     {/* <DigitalClock/>*/}
+     <Calculator/>
     </div>
   )
 }
