@@ -1,10 +1,12 @@
 //import Counter from "./Components/Counter"
-import Todo from "./Components/Todo"
+//import Todo from "./Components/Todo"
+import DigitalClock from "./Components/DigitalClock"
 const App = () => {
   return (
     <div>
       {/*<Counter/>*/}
-      <Todo/>
+      {/*<Todo/>*/}
+      <DigitalClock/>
     </div>
   )
 }
