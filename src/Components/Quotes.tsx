@@ -72,7 +72,7 @@ useEffect(() => {
             onClick={fetchQuotes}
             disabled={loading}
             className={`w-full font-medium tracking-wide rounded-full py-4 text-xl text-white transition-all 
-              ${loading ? "bg-gray-400 cursor-not-allowed" : "bg-fuchsia-500 hover:bg-fuchsia-600 shadow-lg hover:shadow-fuchsia-500/30"}`}
+              ${loading ? "bg-gray-400 cursor-not-allowed" : "bg-fuchsia-500 hover:bg-fuchsia-600 shadow-lg hover:shadow-fuchsia-500/30 cursor-pointer"}`}
           >
             {loading ? "Generating..." : "Generate Quotes"}
           </button>
