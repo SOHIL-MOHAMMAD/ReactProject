@@ -2,7 +2,8 @@
 //import Todo from "./Components/Todo"
 //import DigitalClock from "./Components/DigitalClock"
 //import Calculator from "./Components/Calculator"
-import Quotes from "./Components/Quotes"
+//import Quotes from "./Components/Quotes"
+import Infinite from "./Components/Infinite"
 const App = () => {
   return (
     <div>
@@ -10,7 +11,8 @@ const App = () => {
       {/*<Todo/>*/}
      {/* <DigitalClock/>*/}
      {/* <Calculator/> */}
-     <Quotes/>
+     {/* <Quotes/> */}
+     <Infinite/>
     </div>
   )
 }
