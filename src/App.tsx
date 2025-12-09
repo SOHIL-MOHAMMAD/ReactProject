@@ -3,7 +3,9 @@
 //import DigitalClock from "./Components/DigitalClock"
 //import Calculator from "./Components/Calculator"
 //import Quotes from "./Components/Quotes"
-import Infinite from "./Components/Infinite"
+//import Infinite from "./Components/Infinite"
+//import SearchWithDebouncing from "./Components/SearchWithDebouncing"
+import FilterSort from "./Components/FilterSort"
 const App = () => {
   return (
     <div>
@@ -12,7 +14,9 @@ const App = () => {
      {/* <DigitalClock/>*/}
      {/* <Calculator/> */}
      {/* <Quotes/> */}
-     <Infinite/>
+     {/* <Infinite/> */}
+     {/* <SearchWithDebouncing/> */}
+    <FilterSort/>
     </div>
   )
 }
