@@ -1,2 +1,41 @@
 @import "tailwindcss";
 
+body.light{
+  --bg-color:#ffffff;
+  --text-color:#000000;
+  transition: background-color 0.3s , color 0.3s;
+}
+
+body.dark {
+  --bg-color: #1a1a1a;
+  --text-color: #f0f0f0;
+}
+
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes shimmer {
+  0%{
+    background-position: -200% 0;
+  }
+  100%{
+    background-position: 200% 0;
+  }
+}
+
+.skeleton {
+  background:  #eee;
+  background: linear-gradient(90deg , #eee 25% , #ddd 50% , #eee 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+  border-radius: 4px;
+}

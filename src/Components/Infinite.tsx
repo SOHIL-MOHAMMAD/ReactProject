@@ -27,7 +27,7 @@ const Infinite = () => {
   
   useEffect(()=>{
     const loadItem = async ()=>{
-      const newItem = await fetchMockData(page);
+      const newItem = await fetchMockData(page);()
 
       setItems((prev)=> [...prev, ...newItem]);
       setLoading(false)
